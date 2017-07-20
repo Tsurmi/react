@@ -6,3 +6,5 @@
 
   ReactDOM.render(<WebApp/>,
     document.getElementById('root'));
+
+//notes:
