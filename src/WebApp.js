@@ -29,6 +29,7 @@ const Section = (props) => {
     <div>
       <h5>{props.sectionHeader}</h5>
       <p> {props.info} </p>
+      // <img className="img" src={props.img} />
     </div>
   )
 }
@@ -49,6 +50,3 @@ const WebApp = () => {
 }
 
 export default WebApp;
-
-
-//notes
