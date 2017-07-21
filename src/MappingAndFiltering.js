@@ -36,7 +36,7 @@
   }
 
   const Books = (props) => {
-    const book = props.books.map(function(book, index){
+    const book = props.ChatApp.map(function(book, index){
       return (
         <div>
           <h1>{book.title}</h1>
