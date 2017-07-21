@@ -24,7 +24,7 @@
       return num<70 && num >30;
     })
     .map(function(num, index){
-      return <li> key={index} > {num}</li>
+      return <li>{num}</li>
     })
     return (
       <div>
