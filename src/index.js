@@ -4,13 +4,12 @@ import { BrowserRouter as Router,
         Route, Link } from 'react-router-dom'
 import './styles.css';
 
-// Our router should navigate to:
-  // - Home
-  // - ChatApp
-  //
 import NavigationBar from './components/NavigationBar';
 import App from './WebApp/App';
 import ChatApp from './Chatter/ChatApp';
+import AcmeApp from './Acme/AcmeApp';
+import DATA from './Acme/ACMEDATA';
+
 
 
 const Home = () => {
@@ -21,7 +20,9 @@ const Home = () => {
     )
 }
 
-ReactDOM.render((
+ReactDOM.render(
+  <AcmeApp />,
+    document.getElementById('root'));
   <Router>
     <div>
       <NavigationBar />
@@ -29,7 +30,7 @@ ReactDOM.render((
       <Route exact path="/" component={Home} />
       <Route path="/web-app" component={App} />
       <Route path="/fake-chat" component={ChatApp} />
+      <Route path="acme-app" component={AcmeApp} />
 
     </div>
   </Router>
-), document.getElementById('root'));
