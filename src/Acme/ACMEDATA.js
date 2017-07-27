@@ -1,12 +1,11 @@
 export default {
-  information: [
-  {title: "Acme Company"},
-  {street: "2312 Walkers Ridge Way"},
-  {city: "Arlington Heights"},
-  {state: "IL"},
-  {zip: "60005"},
-  {phoneNumber: "630-299-2817"},
-],
+  title: "Acme Company",
+  street: "2312 Walkers Ridge Way",
+  city: "Arlington Heights",
+  state: "IL",
+  zip: "60005",
+  phoneNumber: "630-299-2817",
+
   customers: [
     { name: "Miguel de Cervantes", email: "mike@gmail.com", img: "https://s3.amazonaws.com/pq-imgs/images/bios/Miguel-de-Cervante-10873.jpg" },
     { name: "Marcel Proust", email: "marcie1873@gmail.com", img: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Marcel_Proust_1900-2.jpg" },
