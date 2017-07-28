@@ -19,11 +19,11 @@
 
   .nav-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
   }
 
-  .jumbotron {
+  .jumbotron-react {
     margin: 5px;
     padding-left: 30px;
     border-radius: 20px;
@@ -31,19 +31,19 @@
     background-color: orange;
   }
 
-  .jumbotron h3 {
+  .jumbotron-react h3 {
     font-family: monospace;
     font-size: 100px;
     text-align: center;
   }
 
-  .jumbotron h4 {
+  .jumbotron-react h4 {
     font-family: monospace;
     font-size: 15px;
     text-align: center;
   }
 
-  .jumbotron p {
+  .jumbotron-react p {
     font-family: monospace;
     font-size: 15px;
     text-align: center;
@@ -70,7 +70,8 @@
   .navigation {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+
   }
 
   .acme-img {
@@ -81,10 +82,6 @@
     width: 100%;
   }
 
-  .card-container {
-    width: calc(39% - 18px);
-
-  }
 
   .open-btn {
     background-color: red;
@@ -96,4 +93,33 @@
     background-color: green;
     border-radius: 20px;
     font-size: 24px;
+  }
+
+  .home{
+    border: solid 6px white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    border: 3px dotted black;
+    border-radius: 30px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+  .userCard img{
+    max-width: 90%;
+  }
+  .userCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }

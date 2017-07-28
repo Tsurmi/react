@@ -2,7 +2,7 @@
 
   const Jumbtron = (props) => {
     return (
-      <div className='jumbotron'>
+      <div className='jumbotron-react'>
         <h3> {props.header} </h3>
           <p> {props.callToAction} </p>
         <h4> {props.information} </h4>

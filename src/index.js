@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router,
         Route, Link } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
 import './styles.css';
 
 import NavigationBar from './components/NavigationBar';
@@ -14,7 +15,7 @@ import Playground from './Playground/App';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <h3>Hello from Home</h3>
     </div>
   )
