@@ -19,9 +19,9 @@ const AcmeItems = () => {
     <div>
     {
     DATA.customers.map((customer, index) =>
-      (<div key={index}>
-        <h1> { customer.name } </h1>
-        <h3>  { customer.email }</h3>
+      (<div className='card-container'key={index}>
+        <h1 className="acme-name"> { customer.name } </h1>
+        <h3 className="acme-email">  { customer.email }</h3>
         <img className="acme-img"src={ customer.img } />
       </div>)
     )
